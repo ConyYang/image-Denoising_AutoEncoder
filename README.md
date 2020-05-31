@@ -19,4 +19,18 @@ perform a task of data encoding (representation learning).
 - 6 = shirt
 - 7 = Sneaker
 - 8 = Bag
-- 9 = Ankle boot 
+- 9 = Ankle boot
+
+### AutoEncoders Intuition
+Auto encoders use the same input data for the input and output. 
+![Test Image 1](autoencoders.png)
+
+### The Code Layer
+- Auto encoders work by adding a bottleneck in the network
+- This bottleneck forces the network to create a compressed(encoded) version of
+the original input
+- Auto encoders work well if correlations exists between input data (performs poorly
+if the all input data is independent)
+- Great Reference: "Intro to Auto encoders by Jeremy Jordan"
+![Test Image 2](math.png)
+![Test Image 3](reconstruction.png)
